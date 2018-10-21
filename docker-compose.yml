@@ -23,7 +23,7 @@ services:
   web:
     build: .
     ports:
-      - "8001:80"    
+      - "8002:80"    
     volumes:
       - ./instancias/:/var/www/html/     
     links:
